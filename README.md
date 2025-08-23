@@ -1,31 +1,39 @@
-# React & Tailwind CSS Starter Pack
+# Movie Database App
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+A **React + Tailwind CSS** application that allows users to search for movies and view detailed information using the [OMDb API](http://www.omdbapi.com/). The app is fully responsive and works on **mobile, tablet, and desktop** devices.
 
-## Usage
+---
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Features
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+- Search for movies by title.
+- Display search results in a grid layout.
+- View detailed movie information including:
+  - Movie poster
+  - Title and Year
+  - Genre
+  - Actors
+  - Director
+  - Plot summary
+  - Ratings from various sources
+- Back button to return to search results.
+- Responsive design using Tailwind CSS.
+- Dark-themed interface for a modern look.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+---
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## Technologies Used
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+- React.js
+- Tailwind CSS
+- OMDb API
+- Fetch API for HTTP requests
 
-## Contributing
+---
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/movie-database.git
